@@ -1,0 +1,94 @@
+.hide_ad{
+    display: none !important;
+}
+.custom_ad_slot_title {
+    color: #bbbbbb;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+}
+.custom_ad_slot_mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+}
+.custom_ad_slot_close{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    z-index:10001;
+}
+.custom_ad_slot_close svg {
+    display: block;
+}
+
+.custom_ad_slot_close path{
+    stroke: black;
+    fill: transparent;
+    stroke-linecap: round;
+    stroke-width: 4;
+}
+
+.custom_ad_slot_article_above_next{
+    display: inline-block;
+    float: right;
+}
+.custom_ad_slot_article_above_previous{
+    display: inline-block;
+    float: left;
+}
+.custom_ad_slot_article_below_next_prev{
+    text-align: center;
+}
+.custom_ad_slot_mobile_fixed_bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+}
+.custom_ad_slot_mobile_overlay .custom_ad_slot_inner_container{
+    position: fixed;
+    top: calc(50% - 240px);
+    left: 0;
+    z-index: 10000;
+    text-align: center;
+    width: 100%;
+}
+
+.custom_ad_slot_article_above_next:before,
+.custom_ad_slot_article_above_next:after,
+.custom_ad_slot_article_above_previous:before,
+.custom_ad_slot_article_above_previous:after,
+.custom_ad_slot_article_below_next_prev:before,
+.custom_ad_slot_article_below_next_prev:after,
+.custom_ad_slot_mobile_fixed_bottom:before,
+.custom_ad_slot_mobile_fixed_bottom:after{
+    display: table;
+    content: " ";
+}
+
+.custom_ad_slot_article_above_next:after,
+.custom_ad_slot_article_above_previous:after,
+.custom_ad_slot_article_below_next_prev:after,
+.custom_ad_slot_mobile_fixed_bottom:after{
+    clear: both;
+}
+
+.td-main-content-wrap .td-post-template-default.hide_outstream_ad .above-title-ad #outstream_1{
+    display: none;
+}
+
+.custom_ad_article_bottom_tag,
+.custom_ad_slot_mobile_fixed_bottom_tag{
+    text-align: center;
+}

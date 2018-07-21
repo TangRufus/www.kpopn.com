@@ -1,0 +1,104 @@
+.td-feature-notification-box.td-display-notification-box{
+    right: 0;
+    visibility: visible;
+}
+.td-feature-notification-box {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    width: 341px;
+    bottom: 48px;
+    right: -384px;
+    background-color: #fff;
+    padding: 16px 20px 0 20px;
+    border-style: solid;
+    border-color: #ededed;
+    border-width: 1px 0 1px 1px;
+    z-index: 9999;
+    visibility: hidden;
+    -webkit-transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+    -moz-transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+    -o-transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+    transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+}
+.td-close-feature-notification-box {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 14px;
+    top: 21px;
+    line-height: 26px;
+    padding: 2px 11px;
+    font-size: 17px;
+}
+.td-feature-notification-box-title {
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #222;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    min-width: 300px;
+    margin-bottom: 18px;
+}
+
+.td-feature-notification-box .td-module-meta-info{
+    display: none;
+}
+/****************Mobile**************/
+.td-mobile-feature-notification-box.td-display-mobile-notification-box{
+    bottom: 0;
+    visibility: visible;
+}
+.td-mobile-feature-notification-box {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    width: calc(100% - 60px);
+    bottom: -500px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #ededed;
+    border-width: 1px;
+    z-index: 9999;
+    visibility: hidden;
+    -webkit-transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+    -moz-transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+    -o-transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+    transition: all 500ms cubic-bezier(0.265, 0.365, 0.26, 0.865);
+
+
+}
+.td-close-mobile-feature-notification-box {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 26px;
+    padding: 11px;
+    font-size: 17px;
+}
+.td-mobile-feature-notification-box-title {
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #222;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.td-mobile-feature-notification-box .td-module-meta-info{
+     display: inline-block;
+ }
+.td-mobile-feature-notification-box img.entry-thumb {
+    border-radius: 0 !important;
+}
+.td-content-mobile-feature-notification-box{
+    margin:auto;
+}
